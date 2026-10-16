@@ -11,8 +11,8 @@ Select one:
 - Hardware-backed signing key.
 - Dedicated signing service with restricted access and auditable signing operations.
 
-Selection: Pending
-Responsible custodian or service: Pending
+Selection: Hardware-backed signing key.
+Responsible custodian or service: Evan Ketchum
 
 ## 2. Independent Trust Channel
 
@@ -21,8 +21,8 @@ Select one:
 - Separately controlled organizational trust registry.
 - Other documented method, subject to explicit approval.
 
-Selection: Pending
-Trust-channel owner: Pending
+Selection: Independently authenticated, out-of-band public-key fingerprint verification.
+Trust-channel owner: Evan Ketchum
 
 ## 3. Key Rotation
 
@@ -30,8 +30,8 @@ Select one:
 - Human-approved rotation with an authenticated transition record.
 - Human-approved rotation through an independently authenticated trust-anchor update.
 
-Selection: Pending
-Approval authority: Pending
+Selection: Human-approved rotation with an authenticated transition record.
+Approval authority: Evan Ketchum
 
 ## 4. Key Compromise and Recovery
 
@@ -39,33 +39,33 @@ Select one:
 - Designated human authority approves revocation, impact assessment, and replacement trust-anchor establishment through an independent channel.
 - Other documented recovery procedure approved by the designated human authority.
 
-Selection: Pending
-Recovery authority: Pending
-Independent recovery channel: Pending
+Selection: Designated human authority approves revocation, impact assessment, and replacement trust-anchor establishment through an independent channel.
+Recovery authority: Evan Ketchum
+Independent recovery channel: Evan.ketchum2026@outlook.com
 
 ## 5. External Authority Attestation
 
-Decision-maker identity: Pending
-Authority basis: Pending independent verification
-Decision: NOT YET MADE
-Decision date and time: Pending
-Signature or attestation: Pending
+Decision-maker identity: Evan Ketchum
+Authority basis: Project owner and sole administrative control of the evank253 GitHub account 
+Decision: Approved
+Decision date and time: October 16,2026. 12:06pm
+Signature or attestation: Evan Ketchum
 
 The decision-maker's authority must be established independently of this document and the governance ledger being initialized.
 
 ## 6. Independent Preservation
 
-Approved artifact location: Pending
+Approved artifact location:http://github.com/Evank253/kcn-baseline-evidence
 Exact artifact digest: Pending calculation from final bytes
-Independent retrieval result: NOT MEASURED
-Signature verification result: NOT MEASURED
+Independent retrieval result: NOT_MEASURED
+Signature verification result: NOT_MEASURED
 
 ## 7. Genesis Ledger Record
 
 The initial governance-ledger record may be created only after the external decision and applicable authority checks are verified.
 
-Genesis record ID: NOT CREATED
-External authority artifact reference: Pending
+Genesis record ID:http://github.com/Evank253/kcn-baseline-evidence
+External authority artifact reference:http://github.com/Evank253/kcn-baseline-evidence
 Verification evidence reference: Pending
 
 The initial record must derive its trust from the verified external authority decision and independently retrievable artifact. It must not claim that the ledger establishes its own authority.
