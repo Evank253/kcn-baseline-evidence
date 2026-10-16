@@ -58,7 +58,7 @@ The decision-maker's authority must be established independently of this documen
 Approved artifact location:http://github.com/Evank253/kcn-baseline-evidence
 Exact artifact digest: Pending calculation from final bytes
 Independent retrieval result: NOT_MEASURED
-Signature verification result: NOT_MEASURED i
+Signature verification result: NOT_MEASURED
 
 ## 7. Genesis Ledger Record
 
