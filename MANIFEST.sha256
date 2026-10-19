@@ -1,0 +1,18 @@
+`RESULT.md` is on `main`, and it matches the copy I wrote byte for byte. The commit that added it is `a33db81` ("Add files via upload," by evan ketchum). I didn't make or push that commit.
+
+The raw transcript and manifest were on my machine but not in the repo, so the links were dead. I've now copied them into the clone and checked them against the manifest. All four listed files verify as OK: `gpg_verify_raw_status.txt`, `input_sha256.txt`, `key_fingerprint.txt`, and `repo_head.txt`.
+
+I haven't committed or pushed anything, since this sandbox has no GitHub credentials. The four files are untracked in `/home/user/kcn-baseline-evidence`. To publish them from your machine, run:
+
+```
+git pull origin main
+git add MANIFEST.sha256 gpg_verify_raw_status.txt input_sha256.txt key_fingerprint.txt repo_head.txt
+git commit -m "Add raw GPG verify transcript and manifest for BTP-001 result record"
+git push origin main
+```
+
+
+
+Or upload the same five files through the GitHub web UI, as the earlier commit was done. Either way, leave `RESULT.md` and the signed sign-off untouched.
+
+The manifest covers the four evidence files but not `RESULT.md`, which is fine because `RESULT.md` is already on `main` and its hash is `8ba5508a…0253`. If you want it covered, I can add it to the manifest in a new commit.
