@@ -1,2 +1,0 @@
-See MANIFEST.sha256 for input hash coverage.
-Linked: BTP-001-sign-off.md, commit 0cd5bc4.
