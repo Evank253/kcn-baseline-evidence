@@ -1,0 +1,9 @@
+# MANIFEST — BTP-001 Raw Evidence Files
+
+Covers the four raw evidence files added alongside RESULT.md.
+Recomputed after each change; do not hand-edit.
+
+- gpg_verify_raw_status.txt
+- input_sha256.txt
+- key_fingerprint.txt
+- repo_head.txt
