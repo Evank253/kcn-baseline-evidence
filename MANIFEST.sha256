@@ -1,9 +1,7 @@
-# MANIFEST — BTP-001 Raw Evidence Files
+# DEPRECATED: MANIFEST.sha256
 
-Covers the four raw evidence files added alongside RESULT.md.
-Recomputed after each change; do not hand-edit.
+This file is deprecated and must not be used for verification.
+It contains no hashes. Its file list is superseded by Manifex.sha256,
+which holds the sha256 digests for the BTP-001 raw evidence files.
 
-- gpg_verify_raw_status.txt
-- input_sha256.txt
-- key_fingerprint.txt
-- repo_head.txt
+See CORRECTION-001.md.

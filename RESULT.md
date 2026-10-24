@@ -3,6 +3,7 @@
 Repo: Evank253/kcn-baseline-evidence
 Commit: 0cd5bc4acd5565a1b60537bcf1573aaaafd9e122 (clean working tree)
 Raw verify output: gpg_verify_raw_status.txt (sha256 in MANIFEST.sha256)
+See [CORRECTION-001.md](CORRECTION-001.md) for renamed evidence files and the manifest name (Manifex.sha256).
 
 ## Results
 

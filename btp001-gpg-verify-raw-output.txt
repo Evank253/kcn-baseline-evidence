@@ -1,0 +1,17 @@
+[GNUPG:] NEWSIG
+gpg: Signature made Mon Oct 19 04:21:50 2026 UTC
+gpg:                using EDDSA key 827B5E6205B58529F1E2FDCDFF817AEEAC19C76A
+[GNUPG:] KEY_CONSIDERED 827B5E6205B58529F1E2FDCDFF817AEEAC19C76A 0
+[GNUPG:] SIG_ID acI5NWpu3WtCBd3gwJLJ6SKyUzA 2026-10-19 1792383710
+[GNUPG:] GOODSIG FF817AEEAC19C76A Evan Ketchum <evan.ketchum2000@gmail.com>
+gpg: Good signature from "Evan Ketchum <evan.ketchum2000@gmail.com>" [unknown]
+gpg: Signature notation: manu=2,2.5+1.12,2,1
+[GNUPG:] NOTATION_NAME manu
+[GNUPG:] NOTATION_FLAGS 0 1
+[GNUPG:] NOTATION_DATA 2,2.5+1.12,2,1
+[GNUPG:] VALIDSIG 827B5E6205B58529F1E2FDCDFF817AEEAC19C76A 2026-10-19 1792383710 0 4 0 22 10 00 827B5E6205B58529F1E2FDCDFF817AEEAC19C76A
+[GNUPG:] TRUST_UNDEFINED 0 pgp
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 827B 5E62 05B5 8529 F1E2  FDCD FF81 7AEE AC19 C76A
+gpg_exit=0
